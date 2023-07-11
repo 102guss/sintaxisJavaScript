@@ -26,7 +26,7 @@ else{
     console.log('aún no puedes tramitar tu INE');
 }
 //-----------------------------------------------------
-//l mismo pero ahora con funciones
+//lo  mismo pero ahora con funciones
 
  function funcionTramitar(edad2){
 
