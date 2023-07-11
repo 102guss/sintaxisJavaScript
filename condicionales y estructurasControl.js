@@ -48,3 +48,27 @@ else{
 var x;
 x = funcionTramitar(20);
 console.log(x);
+//..............................................................
+//uso de ciclo for
+//imprime del uno al 10
+var i ;
+console.log('usando ciclo for');
+for(i=0; i<=10; i++){
+console.log(i);
+}
+
+//lo mismo pero usando while
+var i=0 ;
+console.log('usando while');
+while(i<=10){
+console.log(i);
+i++;
+
+}
+
+//usando do while
+var x = 16; // prueba con x= 5
+do{
+console.log(x); //va a mostrar el valor, sola vez
+x++; //aumenta y luego se evalua la condición
+}while(x <= 10);
