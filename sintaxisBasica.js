@@ -34,25 +34,36 @@ console.log("la suma es: ", suma(3,5));
 //................................................................
 //imprimir los numeros pares
 var i;
-for(i=0; i<=20; i++){    //if (i%1==0 && i%i==0)
+for(i=0; i<=20; i++){    
 if (i%2==0){
 console.log(i);
 }
 }
 //dentifica si un numero dado es primo
+//primero, calcular todos lis divisores de un numero
+//mandar a imprimir solo los q tengan dos divisores
 
-function primo(num){
+function primos(num){
 var i;
-var cont;
-for(i=num; i>1; i--){
-console.log(i);
+var diviiores=0;
+
+for(i=1; i<=num; i++){
+if(num%i==0){
+diviiores++;
+}
+}// fin del for
+if(diviiores==2){ 
+console.log("el numero "+num+ " es primo");
+}
+else{
+    console.log('el numero '+num+' no es primo');
 }
 }
 
-console.log(primo(10));
+//llamando a la funcion
+console.log(primos(3));
 
-//imporime los numeros menores a 10
-var i;
-for(i=10; i>0; i--){
-console.log(i);
-}
+// proximo reto, imprimir una lista de numero primos hasta un numero dado
+//hacer tablas de multiplicar
+//hacer calculadora con y sin parámetros
+//ejercicios con arreglos
