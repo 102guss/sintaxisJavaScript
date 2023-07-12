@@ -1,63 +1,62 @@
 //serie d ejercicios en java script
 
-console.log('hola mundo')// mensaje bienvenida
+console.log("hola mundo"); // mensaje bienvenida
 //..............................................
 
-var a =  10;
+var a = 10;
 var b = 20;
-console.log(a+b);
+console.log(a + b);
 //...............................................
 
-function mostrarMensaje(){
-
-console.log("hola mundito");
-
+function mostrarMensaje() {
+  console.log("hola mundito");
 }
 mostrarMensaje();
 //...................................................
-function suma(){// funcion sin parametros
-    var a=10;
-    var b=20;
-    var result;
-    result = a+b;
-    return result;
-    }
-    
-    console.log(suma());
-//............................................................................    
-function suma( a,  b){// funcion con parametros
-
-return a + b;
+function suma() {
+  // funcion sin parametros
+  var a = 10;
+  var b = 20;
+  var result;
+  result = a + b;
+  return result;
 }
 
-console.log("la suma es: ", suma(3,5));
+console.log(suma());
+//............................................................................
+function suma(a, b) {
+  // funcion con parametros
+
+  return a + b;
+}
+
+console.log("la suma es: ", suma(3, 5));
 //................................................................
 //imprimir los numeros pares
 var i;
-for(i=0; i<=20; i++){    
-if (i%2==0){
-console.log(i);
-}
+for (i = 0; i <= 20; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
 }
 //dentifica si un numero dado es primo
-//primero, calcular todos lis divisores de un numero
+//primero, calcular todos lis divisores de un numerok
 //mandar a imprimir solo los q tengan dos divisores
 
-function primos(num){
-var i;
-var diviiores=0;
+function primos(num) {
+  var i;
+  var diviiores = 0;
 
-for(i=1; i<=num; i++){
-if(num%i==0){
-diviiores++;
-}
-}// fin del for
-if(diviiores==2){ 
-console.log("el numero "+num+ " es primo");
-}
-else{
-    console.log('el numero '+num+' no es primo');
-}
+  for (i = 1; i <= num; i++) {
+    if (num % i == 0) {
+      diviiores++;
+    }
+  } // fin del for
+  if (diviiores == 2) {
+    console.log("el numero " + num + " es primo");
+  } else {
+    console.log("el numero " + num + " no es primo");
+  }
 }
 
 //llamando a la funcion
@@ -67,7 +66,7 @@ console.log(primos(3));
 //hacer tablas de multiplicar
 //hacer calculadora con y sin parámetros
 //ejercicios con arreglos
-console.log('object :>> ', object);
+console.log("object :>> ", object);
 
-const a = 4
-a =  3
+const a = 4;
+a = 3;
