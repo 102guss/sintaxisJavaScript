@@ -67,3 +67,7 @@ console.log(primos(3));
 //hacer tablas de multiplicar
 //hacer calculadora con y sin parámetros
 //ejercicios con arreglos
+console.log('object :>> ', object);
+
+const a = 4
+a =  3
